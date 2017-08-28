@@ -2,12 +2,11 @@
 var reg = /('|")__siteHash__\1/mg;
 
 module.exports = function (ret, pack, settings, opt) {
-
+  var hash = getSiteHash(ret, settings);
   fis.util.map(ret.src, function (subpath, file) {
     var content = file.getContent();
     if (content.replace) {
       content = content.replace(reg, function (str, quote) {
-        var hash = getSiteHash(ret, settings);
         return quote + hash + quote;
       })
       file.setContent(content);
