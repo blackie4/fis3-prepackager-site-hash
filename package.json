@@ -1,6 +1,6 @@
 {
   "name": "fis3-prepackager-site-hash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "生成站点所有文件内容总和的hash值",
   "main": "index.js",
   "scripts": {
