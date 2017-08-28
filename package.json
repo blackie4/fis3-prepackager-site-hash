@@ -1,7 +1,7 @@
 {
   "name": "fis3-prepackager-site-hash",
-  "version": "0.1.1",
-  "description": "生成站点所有文件内容总和的hash值",
+  "version": "0.1.2",
+  "description": "生成站点必要静态文件内容总和的md5序列(hash)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,8 @@
   "keywords": [
     "fis3",
     "pack",
-    "hash"
+    "hash",
+    "md5"
   ],
   "author": "BinoYip",
   "license": "MIT",
