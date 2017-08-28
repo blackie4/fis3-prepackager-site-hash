@@ -4,7 +4,7 @@ fis3-prepackager-site-hash
 [![npm](https://img.shields.io/npm/v/fis3-prepackager-site-hash.svg)](https://www.npmjs.com/package/fis3-prepackager-site-hash)
 [![npm](https://img.shields.io/npm/dm/fis3-prepackager-site-hash.svg)](https://www.npmjs.com/package/fis3-prepackager-site-hash)
 
-fis3 文件中获取站点所有静态文件内容总和的md5序列
+fis3 文件中获取站点必要静态文件内容总和的md5序列(hash)
 
 ## 安装
 
